@@ -1,0 +1,28 @@
+.nav {
+    background: #1f1b1c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    padding: 0 1.5rem;
+}
+
+.nav-brand, .nav-link {
+    color: #fff;
+}
+
+.nav-link {
+    font-weight: 300;
+}
+
+.nav-brand {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.nav-tabs {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 15rem;
+    justify-content: space-between;
+}
